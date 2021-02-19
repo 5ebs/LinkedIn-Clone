@@ -3,6 +3,8 @@ I developed a completely functional and responsive LinkedIn Clone from scratch w
 
 The platform allows you to create a profile and publish content as the actual LinkedIn.
 
+![Alt Text](https://github.com/5ebs/LinkedIn-Clone/blob/master/link.mp4)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
