@@ -1,0 +1,105 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.login > img {
+  object-fit: contain;
+  height: 250px;
+  margin-top: -80px;
+  margin-bottom: 20px;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > form > input {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 0.5px solid;
+}
+
+.login > form > input:focus {
+  outline: none !important;
+  border: 2px solid #0a66c2;
+  background-color: #e8f0fe;
+}
+
+.login > form > button {
+  width: 350px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 7px;
+  font-size: large;
+  color: white;
+  background-color: #0a66c2;
+  border-radius: 50px;
+  border: 0.5px solid;
+  outline: none !important;
+}
+
+.login > form > button:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+}
+
+.login__register {
+  cursor: pointer;
+  color: #0a66c2;
+}
+
+.login > p {
+  margin-top: 20px;
+}
+
+.login > h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.login > h4 > a {
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+@media screen and (max-width: 750px) {
+  .login > img {
+    height: 180px;
+    margin-top: -10px;
+}
+
+.login > form > input {
+  width: 320px;
+  height: 42px;
+  font-size: 16px;
+  margin: 0 10px 12px 10px;
+ 
+}
+.login > form > button {
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.login > p {
+  margin-top: 30px;
+}
+
+.login > h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 70px;
+}
+}

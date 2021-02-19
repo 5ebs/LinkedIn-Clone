@@ -1,0 +1,53 @@
+.post {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.1);
+}
+
+.post__header {
+  display: flex;
+  margin-bottom: 10px;
+}
+.post__header > .MuiAvatar-colorDefault {
+  background-color: #70b5f9;
+  width: 45px;
+  height: 45px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.post__header > .MuiAvatar-root {
+  width: 45px;
+  height: 45px;
+  border: 2px solid rgb(235, 235, 235);
+}
+.post__info {
+  margin-left: 10px;
+}
+
+.post__info > p {
+  font-size: 12px;
+  color: gray;
+}
+
+.post__body {
+  overflow-wrap: anywhere;
+}
+
+.post__info > h2 {
+  font-size: 15px;
+}
+
+.post__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 750px) {
+    .widgets {
+        display: none;
+    }
+
+}

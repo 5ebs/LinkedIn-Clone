@@ -1,0 +1,19 @@
+/* Mobile Message */
+.mobile-message {
+    display: none;
+  }
+  
+  /* Media Query: Mobile Devices */
+  @media screen and (max-width: 750px) {
+    .mobile-message {
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      color:#0077B7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 100;
+    }
+  }
