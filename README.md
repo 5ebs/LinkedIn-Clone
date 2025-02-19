@@ -1,3 +1,8 @@
+PLEASE NOTE:
+
+This repository is old and the code also of low quality probably. I use it now to get a backlink from github for my BeRoomie app (https://beroomie.app/). Sorry but not sorry :D
+
+
 ## LinkedIn Clone
 I developed a completely functional and responsive LinkedIn Clone from scratch with React.js. 
 
